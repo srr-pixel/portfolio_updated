@@ -143,7 +143,7 @@ p {
     opacity: 0.5;
 }
 // for phone
-@media only screen and (max-width: 780px) {
+/*@media only screen and (max-width: 780px) {
     .head {
     display: flex;
     position: relative;
@@ -211,7 +211,7 @@ header {
     align-items: center;
     align-content: space-around;
     flex-direction: column;
-    /*background-image: url(../Images/images.jpg) ;*/
+    background-image: url(../Images/images.jpg) ;
     
     
 
@@ -286,4 +286,4 @@ p {
     opacity: 0.5;
 }
 
-}
+}*/
