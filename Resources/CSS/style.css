@@ -143,3 +143,32 @@ p {
     opacity: 0.5;
 }
 
+.btnz {
+    border : 2px solid white;
+    padding: 10px 15px;
+    margin: auto;
+    width: 10%;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.btnz:hover {
+    color:white;
+    background-color: black;
+}
+.foot .zodiac {
+    font-size: 20px;
+    padding-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+   
+
+}
+.another {
+    margin-top: 20px;
+}
+#signn {
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: bold;
+    
+}
