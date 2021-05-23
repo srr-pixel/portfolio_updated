@@ -81,3 +81,20 @@ mn.addEventListener('mouseout', () => {op.innerHTML = ''});
 qr.addEventListener('mouseover', () => {st.innerHTML = '->Intermediate'});
 qr.addEventListener('mouseout', () => {st.innerHTML = ''});
 
+//for zodiac
+let zodiacArray = ["Aquarius","Sagittarius","Aries","Capricorn", "Pisces", "Taurus", "Virgo", "Scorpio", "Libra", "Gemini", "Leo", "Cancer"];
+let zod = document.getElementById("signn");
+let zodButn = document.getElementById("moon");
+
+let signFunc = function() {
+    let arno = Math.floor(Math.random() * 12);
+    zod.innerHTML = zodiacArray[arno];
+}
+zodButn.addEventListener('click', signFunc);
+let hideButtonTwo = function() {
+    zodButn.style.visibility = 'hidden';
+}
+
+
+
+zodButn.addEventListener('click', hideButtonTwo);
